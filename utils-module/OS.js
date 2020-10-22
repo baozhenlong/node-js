@@ -1,0 +1,15 @@
+let os = require('os');
+console.log('操作系统的默认临时文件夹', os.tmpdir());
+console.log('CPU 的字节序', os.endianness());
+console.log('操作系统的主机名', os.hostname());
+console.log('操作系统名', os.type());
+console.log('编译时的操作系统名', os.platform());
+console.log('操作系统 CPU 架构', os.arch());
+console.log('操作系统的发行版本', os.release());
+console.log('操作系统运行得时间，以秒为单位', os.uptime());
+console.log('平均负载的数组', os.loadavg());
+console.log('系统内存总量，单位为字节', os.totalmem());
+console.log('返回系统空闲内存量，单位为字节', os.freemem());
+console.log('一个对象数组，包含所安装的每个 CPU(内核)的信息', os.cpus());
+console.log('获得网络接口列表', os.networkInterfaces());
+console.log('操作系统的行尾符的常量', os.EOL);
