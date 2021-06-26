@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>首页</title>
+    <link rel="stylesheet" href="/public/css/main.css">
+</head>
+<body>
+    <h1>这是首页内容</h1>
+
+    <img src="/public/img/snow-white.jpg"/>
+
+    <p>id: <%=res.id%></p>
+    <p>name: <%=res.name%></p>
+
+    <ul>
+        <%for(let i = 0; i < lists.length; i++){%>
+        <li><%=lists[i]%></li>
+        <%}%>
+    </ul>
+
+    <script src="/public/js/main.js"></script>
+</body>
+</html>

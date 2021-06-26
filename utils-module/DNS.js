@@ -1,4 +1,5 @@
-let dns = require('dns');
+const dns = require('dns');
+
 dns.lookup('www.github.com', (err, address, family) => {
     console.log('ip', address);
     dns.reverse(address, (reverseErr, hostnames) => {
